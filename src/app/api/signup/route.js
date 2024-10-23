@@ -1,6 +1,5 @@
 import { dbConnected } from "@/utils/mongoose";
 import { NextResponse } from "next/server";
-import { sendEmail } from '../mail/mail'
 
 import User from "@/models/users";
 import Company from "@/models/company";
